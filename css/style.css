@@ -4,7 +4,10 @@ body {
 	background-image: url(../images/background2.gif);
 }
 .container-fluid {
-	
+	background-image: url(../images/background.gif);
+}
+header span {
+	background-color: #605036;
 }
 #headerLogo {
 	display: block;
@@ -21,4 +24,10 @@ span img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+footer {
+	display: block;
+	text-align: center;
+	background-color:  #605036;
+	color: white;
 }
