@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/background2.gif);
+}
+.container-fluid {
+	
+}
+#headerLogo {
+	display: block;
+	float: left;
+}
+#headerSlogan {
+	display: block;
+	float: right;
+}
