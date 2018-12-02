@@ -5,8 +5,9 @@ body {
 }
 .container-fluid {
 	background-image: url(../images/background.gif);
+	margin: 15px;
 }
-header span {
+ .header {
 	background-color: #605036;
 }
 #headerLogo {
@@ -16,6 +17,12 @@ header span {
 #headerSlogan {
 	display: block;
 	float: right;
+}
+.navigation {
+	margin-top: 15px;
+}
+a, h3 {
+	color: brown;
 }
 span h5 {
 	text-align: center;
