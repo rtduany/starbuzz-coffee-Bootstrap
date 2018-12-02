@@ -5,7 +5,7 @@ body {
 }
 .container-fluid {
 	background-image: url(../images/background.gif);
-	margin: 15px;
+	margin: 15px;	
 }
  .header {
 	background-color: #605036;
@@ -18,10 +18,14 @@ body {
 	display: block;
 	float: right;
 }
-.navigation {
-	margin-top: 15px;
+article {
+	background-image: url(../images/background.gif);
+	padding: 10px;
 }
-a, h3 {
+.article {
+	background-image: url(../images/background2.gif);
+}
+a, h3, h5 {
 	color: brown;
 }
 span h5 {
@@ -37,4 +41,5 @@ footer {
 	text-align: center;
 	background-color:  #605036;
 	color: white;
+	margin: 0 15px 15px 15px;
 }
