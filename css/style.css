@@ -23,13 +23,14 @@ body {
 }
 .navbar {
 	font-weight: bolder;
+	margin-bottom: 0;
 }
-article {
-	background-image: url(../images/background.gif);
-	padding: 10px;
+.content {
+	border-top: 12px solid #aca17c;
 }
-.article {
-	background-image: url(../images/background2.gif);
+.main {
+	border-left: 12px solid #aca17c;
+	border-right: 12px solid #aca17c;
 }
 a, h3, h5 {
 	color: brown;
@@ -47,4 +48,5 @@ footer {
 	text-align: center;
 	background-color:  #605036;
 	color: white;
+	border-top: 12px solid #aca17c;
 }
