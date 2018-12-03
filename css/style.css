@@ -10,18 +10,19 @@ body {
 }
 .container-fluid {
 	background: #efe5d0 url(../images/background.gif);
-/*	margin: 15px;	*/
 }
  .header {
-	background-color: #605036;
+	background-color: #675c47;
+	 border-bottom: 12px solid #aca17c;
 }
 #headerLogo {
-	display: block;
 	float: left;
 }
 #headerSlogan {
-	display: block;
 	float: right;
+}
+.navbar {
+	font-weight: bolder;
 }
 article {
 	background-image: url(../images/background.gif);
