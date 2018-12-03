@@ -1,11 +1,16 @@
-body {
+* {
 	margin: 0;
 	padding: 0;
-	background-image: url(../images/background2.gif);
+}
+body {
+	background: #efe5d0 url(../images/background2.gif);
+	border:  12px solid #aca17c;
+	font-size: small;
+	font-family: georgia, "times new roman", serif;
 }
 .container-fluid {
-	background-image: url(../images/background.gif);
-	margin: 15px;	
+	background: #efe5d0 url(../images/background.gif);
+/*	margin: 15px;	*/
 }
  .header {
 	background-color: #605036;
@@ -41,5 +46,4 @@ footer {
 	text-align: center;
 	background-color:  #605036;
 	color: white;
-	margin: 0 15px 15px 15px;
 }
