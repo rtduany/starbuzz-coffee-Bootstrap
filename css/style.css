@@ -25,7 +25,6 @@ body {
 	font-weight: bolder;
 	margin-bottom: 0;
 }
-
 .navbar-nav li > a {
 	text-transform: capitalize;
 	color: #333;
@@ -37,12 +36,10 @@ body {
 		color: #fff;
 	}
 }
-
 .navbar-nav li.active > a {
 	background-color: saddlebrown;
 	color: #fff;
 }
-
 .content {
 	border-top: 12px solid #aca17c;
 }
@@ -67,4 +64,17 @@ footer {
 	background-color:  #605036;
 	color: white;
 	border-top: 12px solid #aca17c;
+}
+/* **************************************************** bean machine form styles ******************************************************** */
+form {
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+	border: 1px solid black;
+}
+.table-text {
+	border-top: 12px solid #aca17c;
+}
+.center-text {
+	text-align: center;
 }

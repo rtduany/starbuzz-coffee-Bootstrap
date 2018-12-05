@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bean Machine | Bootstrap</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row header">
+				<div class="col-lg-auto col-md-auto col-sm-auto col-xs-auto">
+					<img src="../logo/headerLogo.gif" id="headerLogo">
+				</div>
+				<div class="col-lg-auto col-md-auto col-sm-auto col-xs-auto">
+					<img src="../logo/headerSlogan.gif" id="headerSlogan">
+				</div>
+			</div>
+			<div class="row">
+			  <div class="col-lg-auto col-md-auto col-sm-auto col-xs-auto navbar">	  
+				  <ul class="nav navbar-nav">	  
+					  <li><a href="../index.html">HOME</a></li>	  
+					  <li><a href="../blog/blog.html">BLOG</a></li>	  
+					  <li class="active"><a href="bean-machine.html">INVENTIONS</a></li>	  
+					  <li><a href="#">RECIPES</a></li>	  
+					  <li><a href="#">LOCATIONS</a></li>	  
+				  </ul>
+			  </div>
+			</div>
+			<div class="row table-text">
+				<h3 class="center-text">The Starbuzz Bean Machine</h3>
+				<h4 class="center-text">Fill out the form below and click "order now" to make an order:</h4>
+			</div>
+			<form class="form-horizontal" action="/action_page.php">
+				<div class="form-group">
+					<label class="control-label col-sm-3">Choose your beans:</label>
+					<div class="col-sm-9">
+						<select class="form-control" id="sel1">
+							<option>House Blend</option>
+							<option>Kenya Coffee</option>
+							<option>Ethiopian Coffee</option>
+							<option>Columbian Coffee</option>
+						</select>
+					</div>	
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3">Type:</label>
+					<div class="col-sm-9">
+						<div class="radio">
+							<label><input type="radio" name="optradio">Whole bean</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="optradio" checked>Ground</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3">Number of bags:</label>
+					<div class="col-sm-9">
+						<input type="text">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3">Must arrive by date:</label>
+					<div class="col-sm-9">
+						<input type="date">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3">Extras:</label>
+					<div class="col-sm-9">
+						<div class="checkbox">
+							<label><input type="checkbox">Gift wrap:</label>
+						</div>
+						<div class="checkbox">
+							<label><input type="checkbox" checked>Include catalog with order:</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3">Ship to:</label>
+					<div class="col-sm-9">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3">Name:</label>
+					<div class="col-sm-9">
+						<input type="text">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3">Address:</label>
+					<div class="col-sm-9">
+						<input type="text">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3">City:</label>
+					<div class="col-sm-9">
+						<input type="text">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3">State:</label>
+					<div class="col-sm-9">
+						<input type="text">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3">Zip:</label>
+					<div class="col-sm-9">
+						<input type="number">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3">Phone:</label>
+					<div class="col-sm-9">
+						<input type="tel">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3">Customer comments:</label>
+					<div class="col-sm-9">
+						<textarea cols="40" rows="10">
+							Optional message
+						</textarea>
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<div class="col-sm-3"></div>
+					<div class="col-sm-9">
+						<input type="submit" value="Order Now">
+					</div>
+				</div>
+				
+			</form>
+			
+		</div>
+		<footer>
+		  <span>&copy; Starbuzz Coffee</span><br>	  
+		  <span>All trademarks and registered trademarks appearing on this site are the property of their respective owners</span>	  
+	  </footer>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	  <!-- Include all compiled plugins (below), or include individual files as needed -->
+	  <script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
